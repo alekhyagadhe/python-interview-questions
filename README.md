@@ -1,4 +1,5 @@
 1. Difference between List and Tuple in Python?
+
 Lists are mutable (you can change, add, delete elements), whereas tuples are immutable (cannot be changed once created).
 Lists are defined with square brackets [], and tuples with parentheses ().
 Tuples are generally faster and used when data shouldn't be changed.
@@ -11,21 +12,17 @@ my_list[0] = 10         # allowed
 my_tuple = (1, 2, 3)
 # my_tuple[0] = 10      # Error: Tuples cannot be changed
 ```
-
 ---
-
 2. How do sets help in removing duplicates from a list?
-
 A set is an unordered collection that doesn't allow duplicate elements.
-
 So, if you convert a list to a set, all duplicate values are automatically removed.
 
+<pre>
 ```python
 numbers = [1, 2, 2, 3, 4, 4, 5]
 unique_numbers = list(set(numbers))
 print(unique_numbers)  # Output: [1, 2, 3, 4, 5]
-
-
+```
 ---
 
 3. Why are dictionaries faster than lists for lookups?
