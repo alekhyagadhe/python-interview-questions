@@ -6,8 +6,8 @@ Lists are defined with square brackets [], and tuples with parentheses ().
 
 Tuples are generally faster and used when data shouldn't be changed.
 
-```python
-my_list = [1, 2, 3]
+
+ ```python my_list = [1, 2, 3]
 my_list[0] = 10         #  allowed
 
 my_tuple = (1, 2, 3)
