@@ -49,6 +49,22 @@
    print(s)      # Output: "cat"
    print(new_s)  # Output: "bat"
 ```
+
+**5)How to merge two dictionaries in Python 3.9+**
+
+  Use the | operator or dict.update() to merge dictionaries.
+
+  ```python
+   a = {'x': 1}
+   b = {'y': 2}
+   merged = a | b
+   print(merged)  # Output: {'x': 1, 'y': 2}
+  '''
+
+**6) Explain dictionary comprehension with an example**
+
+
+  
   
 
   
