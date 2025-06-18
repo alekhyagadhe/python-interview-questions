@@ -61,7 +61,7 @@
    print(merged)  # Output: {'x': 1, 'y': 2}
   '''
 
-**6) Explain dictionary comprehension with an example**
+
 
 
   
