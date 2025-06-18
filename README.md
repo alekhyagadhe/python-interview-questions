@@ -4,7 +4,7 @@ Lists are mutable (you can change, add, delete elements), whereas tuples are imm
 Lists are defined with square brackets [], and tuples with parentheses ().
 Tuples are generally faster and used when data shouldn't be changed.
 
-<pre>
+
 ```python
 my_list = [1, 2, 3]
 my_list[0] = 10         # allowed
