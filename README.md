@@ -1,4 +1,4 @@
-                                    Python Interview Questions and Answers
+                                  
 1)Difference between List and Tuple in Python?
 
   Lists are mutable (you can change, add, delete elements), whereas tuples are immutable (cannot be changed once created).
@@ -13,4 +13,4 @@
  my_tuple = (1, 2, 3)
  # my_tuple[0] = 10      # Error: Tuples cannot be changed
 ```
-
+2)
