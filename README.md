@@ -134,7 +134,7 @@
   == compares values: It checks whether the contents of two variables are the same.
    is compares identities: It checks whether two variables refer to the exact same object in memory.
    
-    **Syntax**
+    Syntax
     ```python
      a == b # checks value equality
      a is b # checks object identity (memory location)
