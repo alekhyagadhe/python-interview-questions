@@ -13,7 +13,7 @@ my_list = [1, 2, 3]
 my_list[0] = 100  # OK
 
 my_tuple = (1, 2, 3)
-my_tuple[0] = 100  # ❌ Error (can't modify)
+my_tuple[0] = 100  #  Error (can't modify)
 
 
 ---
@@ -140,31 +140,31 @@ print(d.get("b", 0))  # 0 (default)
 
 10. Can we use List as Dictionary Key?
 
-❌ No, because lists are mutable and dictionary keys must be immutable.
+No, because lists are mutable and dictionary keys must be immutable.
 
-✅ Use tuples instead.
+Use tuples instead.
 
 
 Example:
 
-d = {(1, 2): "ok"}  # ✅
-# d = {[1, 2]: "error"} ❌
+d = {(1, 2): "ok"}  
+# d = {[1, 2]: "error"} 
 
 
 ---
 
 11. What happens if you try to add mutable object to set?
 
-❌ You get an error because sets need hashable (immutable) items.
+we get an error because sets need hashable (immutable) items.
 
-✅ Use tuples.
+Use tuples.
 
 
 Example:
 
 s = set()
-s.add((1, 2))  # ✅
-# s.add([1, 2]) ❌ Error
+s.add((1, 2))  
+# s.add([1, 2])  Error
 
 
 ---
