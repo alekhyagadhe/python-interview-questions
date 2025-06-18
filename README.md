@@ -39,6 +39,17 @@
  print('Bob' in students)  # O(1)
  ```
 
+**4)How are strings immutable if replace() works?**
+
+  Strings are immutable. Methods like replace() return a new string.The original string remains unchanged.
+
+   ```python
+   s = "cat"
+   new_s = s.replace("c", "b")
+   print(s)      # Output: "cat"
+   print(new_s)  # Output: "bat"
+```
+  
 
   
    
