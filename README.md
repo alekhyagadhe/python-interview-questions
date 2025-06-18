@@ -132,7 +132,7 @@
 **13)what is the difference between is and ==for string ? what is the syntax?**
  
   == compares values: It checks whether the contents of two variables are the same.
-is compares identities: It checks whether two variables refer to the exact same object in memory.
+  is compares identities: It checks whether two variables refer to the exact same object in memory.
    
     Syntax
     ```python
@@ -141,7 +141,7 @@ is compares identities: It checks whether two variables refer to the exact same 
       ```
       ```python
       # Case 1: Comparing string literals
-     a = "hello"
+     a = "hello
      b = "hello"
      print(a == b)  # True – values are the same
      print(a is b)  # True – both point to same memory (due to interning)
