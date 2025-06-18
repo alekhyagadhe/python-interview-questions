@@ -23,5 +23,23 @@
   unique_numbers = list(set(numbers))
   print(unique_numbers)  # Output: [1, 2, 3]
   ```
+
+**3)Why are dictionaries faster than lists for lookups?**
+
+  Lists perform linear search (O(n)).
+  Dictionaries use hash tables (O(1) average time).
+
+  ```python
+  # List lookup
+ names = ['Alice', 'Bob', 'Charlie']
+ print('Bob' in names)  # O(n)
+
+ # Dictionary lookup
+ students = {'Alice': 25, 'Bob': 30}
+ print('Bob' in students)  # O(1)
+ ```
+
+
+  
    
 
