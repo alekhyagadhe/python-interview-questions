@@ -1,4 +1,4 @@
-                                    *** Python Interview Questions & Answers ***
+                                    Python Interview Questions and Answers
 1)Difference between List and Tuple in Python?
 
   Lists are mutable (you can change, add, delete elements), whereas tuples are immutable (cannot be changed once created).
