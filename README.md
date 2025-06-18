@@ -13,7 +13,8 @@
  my_tuple = (1, 2, 3)
  # my_tuple[0] = 10      # Error: Tuples cannot be changed
 ```
-2) **How do sets help remove duplicates from a list?**
+
+**2)How do sets help remove duplicates from a list?**
 
   Sets automatically remove duplicate items.Converting a list to a set removes duplicates.
 
