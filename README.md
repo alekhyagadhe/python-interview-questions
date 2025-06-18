@@ -1,4 +1,5 @@
-                                 # Python Interview Questions & Answers #                               
+                               *** Python Interview Questions & Answers ***
+                                 
 **1)Difference between List and Tuple in Python?**
   
   Lists are mutable (you can change, add, delete elements), whereas tuples are immutable (cannot be changed once created).
@@ -129,7 +130,8 @@
    ```
     
 **13)what is the difference between is and ==for string ? what is the syntax?**
-   == compares values: It checks whether the contents of two variables are the same.
+ 
+  == compares values: It checks whether the contents of two variables are the same.
    is compares identities: It checks whether two variables refer to the exact same object in memory.
    
     **Syntax**
